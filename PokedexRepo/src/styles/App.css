@@ -1,0 +1,52 @@
+.App-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.listaProductos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.buscador-container {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.buscador-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.buscador-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.buscador-button:hover {
+  background-color: #0056b3;
+}
